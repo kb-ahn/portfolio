@@ -39,7 +39,7 @@ export default function Home() {
               </ul>
               <div className="cta">
                 <a className="btn primary" href="#work">프로젝트 보기</a>
-                <a className="btn" href="/portfolio-ahngibae.pdf" target="_blank">PDF 포트폴리오</a>
+                <a className="btn" href="/kban_portfolio.pdf" target="_blank">PDF 포트폴리오</a>
                 <a className="btn ghost" href={`mailto:${p.email}`}>✉ 연락하기</a>
               </div>
             </div>
@@ -244,7 +244,7 @@ export default function Home() {
             <h2>{data.contactCopy}</h2>
             <div className="contact-links">
               <a href={`mailto:${p.email}`}>{p.email}</a>
-              <a href="/portfolio-ahngibae.pdf" target="_blank">PDF 포트폴리오 ↓</a>
+              <a href="/kban_portfolio.pdf" target="_blank">PDF 포트폴리오 ↓</a>
             </div>
           </div>
         </section>
